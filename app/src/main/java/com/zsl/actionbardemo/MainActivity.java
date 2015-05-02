@@ -13,6 +13,10 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         //  获得ActionBar
         ActionBar actionBar = getSupportActionBar();
+        //隐藏ActionBar
+        actionBar.show();
+        //显示ActionBar
+        actionBar.hide();
 
     }
 
