@@ -13,3 +13,19 @@ actionBar.show();
 //隐藏ActionBar
 actionBar.hide();
 ```
+3.设置ActionBar 的背景颜色| [link](https://github.com/yy1300326388/ActionBarDemo/commit/79d4926d0292228708903676697e2a3306818ffe)
+![](https://github.com/yy1300326388/ActionBarDemo/blob/71bef6292a6cbfd51a7be9ca1b76de12221256ba/images_demo/set_bg.png)
+```java
+Drawable drawable=getResources().getDrawable(R.drawable.actionbar_bg);
+//设置ActionBar的背景
+actionBar.setBackgroundDrawable(drawable);
+```
+4.设置ActionBar 的Back| [link](https://github.com/yy1300326388/ActionBarDemo/commit/71bef6292a6cbfd51a7be9ca1b76de12221256ba)
+![](https://github.com/yy1300326388/ActionBarDemo/blob/71bef6292a6cbfd51a7be9ca1b76de12221256ba/images_demo/show_back.png)
+```java
+//设置返回键
+actionBar.setDisplayHomeAsUpEnabled(true);
+```
+3.设置ActionBar 的背景颜色| [link]()
+```java
+```
