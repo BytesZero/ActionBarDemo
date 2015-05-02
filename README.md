@@ -26,6 +26,21 @@ actionBar.setBackgroundDrawable(drawable);
 //设置返回键
 actionBar.setDisplayHomeAsUpEnabled(true);
 ```
+5.设置ActionBar Back的返回事件| [link](https://github.com/yy1300326388/ActionBarDemo/commit/6c7d264f94553f8fbfd25ffc0c75cf5affaf279c)
+```java
+@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+   switch (item.getItemId()){
+       case android.R.id.home:{
+            onBackPressed();
+            break;
+       }
+   }
+   return true;
+}
+```
+
 3.设置ActionBar 的背景颜色| [link]()
 ```java
 ```
+
