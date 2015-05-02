@@ -14,7 +14,6 @@ public class MainActivity extends ActionBarActivity {
         //  获得ActionBar
         ActionBar actionBar = getSupportActionBar();
 
-
     }
 
 }
