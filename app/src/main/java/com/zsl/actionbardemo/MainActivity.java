@@ -1,9 +1,13 @@
 package com.zsl.actionbardemo;
 
+import android.app.TaskStackBuilder;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +26,16 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setBackgroundDrawable(drawable);
         //设置返回键
         actionBar.setDisplayHomeAsUpEnabled(true);
-
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:{
+                onBackPressed();
+                break;
+            }
+        }
+        return true;
+    }
 }
