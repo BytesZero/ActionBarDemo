@@ -40,7 +40,3 @@ public boolean onOptionsItemSelected(MenuItem item) {
 }
 ```
 
-3.设置ActionBar 的背景颜色| [link]()
-```java
-```
-
